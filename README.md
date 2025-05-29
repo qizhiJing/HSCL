@@ -4,9 +4,9 @@
 
 We propose a **Hierarchical Alignment** framework for effective multi-modal representation learning in Alzheimer’s Disease (AD) diagnosis. Our approach:
 
-- Aligns features **within modalities** (intra-modal) using **supervised contrastive learning**
-- Aligns features **across modalities** (inter-modal) via a shared space
-- Introduces a **curriculum learning strategy** to transition smoothly from intra- to inter-modal alignment
+- Align features **within modalities** (intra-modal) using **supervised contrastive learning**
+- Align features **across modalities** (inter-modal) via a shared space
+- Introduce a **curriculum learning strategy** to transition smoothly from intra- to inter-modal alignment
 
 This hierarchical structure ensures discriminative and well-structured representations that enhance diagnostic performance.
 
