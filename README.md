@@ -27,10 +27,11 @@ This work uses the publicly available [ADNI dataset](http://adni.loni.usc.edu/).
 - **PET**: Functional imaging features
 - **CSF**: Cerebrospinal fluid protein levels (e.g., Aβ42, T-tau, P-tau)
 
-## 📁 Installation
+## 🏗️ Installation
 
 Install required packages with:
 
+```bash
 pip install -r requirements.txt
 
 
