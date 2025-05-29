@@ -10,9 +10,7 @@ We propose a **Hierarchical Alignment** framework for effective multi-modal repr
 
 This hierarchical structure ensures discriminative and well-structured representations that enhance diagnostic performance.
 
-<p align="center">
-  <img src="docs/framework.png" alt="Framework" width="600"/>
-</p>
+![](https://github.com/qizhiJing/Hierarchical-Alignment-for-Multi-modal-Representation-Learning-in-Alzheimer-s-Disease-Diagnosis/blob/master/images/-s1bvs7ct6glsj25c-001.jpg)
 
 ## 🧪 Key Features
 
@@ -29,7 +27,3 @@ This work uses the publicly available [ADNI dataset](http://adni.loni.usc.edu/).
 - **PET**: Functional imaging features
 - **CSF**: Cerebrospinal fluid protein levels (e.g., Aβ42, T-tau, P-tau)
 
-
-## 🏗️ Model Architecture
-
-![](https://github.com/qizhiJing/Hierarchical-Alignment-for-Multi-modal-Representation-Learning-in-Alzheimer-s-Disease-Diagnosis/blob/master/images/-s1bvs7ct6glsj25c-001.jpg)
