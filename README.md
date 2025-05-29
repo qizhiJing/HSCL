@@ -1,4 +1,35 @@
-# Hierarchical-Alignment-for-Multi-modal-Representation-Learning-in-Alzheimer-s-Disease-Diagnosis
-Alzheimer’s disease diagnosis increasingly relies on multi-modal data, including neuroimaging and specific proteins in the cerebrospinal fluid. However, effective representation learning that captures the discriminative characteristics of multi-modal data remains a significant challenge. In this paper, we propose a hierarchical alignment method based on supervised contrastive learning to optimize representation distribution through enhanced intra-modal and inter-modal alignment. Specifically, our method ensures that features within each modality are tightly clustered by class, thereby achieving intra-modal alignment. It then aligns features across modalities in a common space, ensuring consistency between the representations of the same class for inter-modal alignment. Furthermore, a curriculum learning strategy is employed that first focuses on intra-modal alignment and then gradually transitions to inter-modal alignment, fostering a well-structured feature space. Experimental results on the ADNI dataset demonstrate the superiority of the proposed method,outperforming existing state-of-the-art approaches with accuracy of 96.74%. 
+# Hierarchical Alignment for Multi-modal Representation Learning in Alzheimer’s Disease Diagnosis
+
+## 🧠 Introduction
+
+We propose a **Hierarchical Alignment** framework for effective multi-modal representation learning in Alzheimer’s Disease (AD) diagnosis. Our approach:
+
+- Aligns features **within modalities** (intra-modal) using **supervised contrastive learning**
+- Aligns features **across modalities** (inter-modal) via a shared space
+- Introduces a **curriculum learning strategy** to transition smoothly from intra- to inter-modal alignment
+
+This hierarchical structure ensures discriminative and well-structured representations that enhance diagnostic performance.
+
+<p align="center">
+  <img src="docs/framework.png" alt="Framework" width="600"/>
+</p>
+
+## 🧪 Key Features
+
+- **Multi-modal input**: MRI, PET, and CSF features from the ADNI dataset
+- **Supervised contrastive loss** for both intra- and inter-modal alignment
+- **Curriculum learning** to gradually enforce hierarchical feature consistency
+- **Achieved 96.74% accuracy** in AD diagnosis, outperforming SOTA methods
+
+## 📁 Dataset
+
+This work uses the publicly available [ADNI dataset](http://adni.loni.usc.edu/). We use three modalities:
+
+- **MRI**: Structural imaging features
+- **PET**: Functional imaging features
+- **CSF**: Cerebrospinal fluid protein levels (e.g., Aβ42, T-tau, P-tau)
+
+
+## 🏗️ Model Architecture
 
 ![](https://github.com/qizhiJing/Hierarchical-Alignment-for-Multi-modal-Representation-Learning-in-Alzheimer-s-Disease-Diagnosis/blob/master/images/-s1bvs7ct6glsj25c-001.jpg)
