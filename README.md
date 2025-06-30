@@ -10,7 +10,7 @@ We propose a **Hierarchical Alignment** framework for effective multi-modal repr
 
 This hierarchical structure ensures discriminative and well-structured representations that enhance diagnostic performance.
 
-![](https://github.com/qizhiJing/HSCL/blob/master/images/fig1-eps-converted-to-1.png）
+![](https://github.com/qizhiJing/HSCL/blob/master/images/fig1-eps-converted-to-1.png)
 
 ## 🧪 Key Features
 
