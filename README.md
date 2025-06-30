@@ -10,7 +10,7 @@ We propose a **Hierarchical Alignment** framework for effective multi-modal repr
 
 This hierarchical structure ensures discriminative and well-structured representations that enhance diagnostic performance.
 
-![](https://github.com/qizhiJing/Hierarchical-Alignment-for-Multi-modal-Representation-Learning-in-Alzheimer-s-Disease-Diagnosis/blob/master/images/-s1bvs7ct6glsj25c-001.jpg)
+![](https://github.com/qizhiJing/Hierarchical-Alignment-for-Multi-modal-Representation-Learning-in-Alzheimer-s-Disease-Diagnosis/blob/master/images/fig1-eps-converted-to-1)
 
 ## 🧪 Key Features
 
